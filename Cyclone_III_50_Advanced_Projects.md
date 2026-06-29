@@ -1,5 +1,5 @@
 # 50 Advanced FPGA Projects — Cyclone III EP3C16F484C6N
-### Target Role: Hardware Design Engineer – Digital/Analog/VHDL | Saab Grintek Defence
+### Target Role: Hardware Design Engineer – Digital/Analog/VHDL |      
 
 **Hardware Platform:**
 - **FPGA:** Intel/Altera Cyclone III EP3C16F484C6N (16K LEs, 56× M9K BRAM, 4× PLLs, 346 I/O)
@@ -843,7 +843,7 @@ end entity tdc;
 ---
 
 ## DOMAIN 8 — COMMUNICATION PROTOCOL BRIDGING & GATEWAYS
-*Leverages existing MPT/SIPE experience, maps to Saab system integration needs*
+*Leverages existing MPT/SIPE experience, maps to   system integration needs*
 
 ---
 
@@ -868,7 +868,7 @@ end entity tdc;
 
 ### Project 32 — HDLC/PPP Frame Engine
 
-**Objective:** VHDL implementation of HDLC framing (flag bytes, bit stuffing, FCS) for point-to-point serial links used in avionics and defence comms.
+**Objective:** VHDL implementation of HDLC framing (flag bytes, bit stuffing, FCS) for point-to-point serial links used in avionics and   comms.
 
 **HDLC frame format:**
 ```
@@ -1273,7 +1273,7 @@ end record;
 
 ---
 
-### Project 49 — Full System Integration: Saab-Inspired Signal Processing Chain
+### Project 49 — Full System Integration:  -Inspired Signal Processing Chain
 
 **Objective:** Integrate Projects 7 (ADC), 17 (Laser driver), 18 (Lock-in amp), 28 (FFT), 30 (DSO), 36 (Data logger) into a coherent multi-channel signal acquisition and analysis system.
 
@@ -1311,7 +1311,7 @@ end record;
 
 ### Project 50 — Digital Beamforming Simulation (4-Element Phased Array)
 
-**Objective:** Implement a 4-element phased array beamformer in VHDL — complex phase-shift application, coherent summation, beam steering angle control — directly applicable to Saab EW/radar systems.
+**Objective:** Implement a 4-element phased array beamformer in VHDL — complex phase-shift application, coherent summation, beam steering angle control — directly applicable to   EW/radar systems.
 
 **Architecture:**
 ```
@@ -1437,6 +1437,6 @@ quit -code [expr {[coverage get -assert failures] > 0}]
 
 ---
 
-*Document prepared for Saab Grintek Defence Hardware Design Engineer role evaluation*  
+*Document prepared for     Hardware Design Engineer role evaluation*  
 *Platform: Intel/Altera Cyclone III EP3C16F484C6N + ESP32 + Raspberry Pi 3B/5*  
 *Toolchain: Quartus Prime Lite, ModelSim-Altera, LTSpice, KiCad*
